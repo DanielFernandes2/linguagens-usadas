@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+html{
+    font-size: 62.5%;
+}
+
+header{
+    background-image: url("../images/codigo_fundo.png");
+    background-size: cover;
+    height: 100vh;
+    padding: 30.4rem 28.9rem;
+}
+
+h1{
+    color: #FFFFFF;
+    font-size: 6.4rem;
+    font-family: Inconsolata;
+    font-weight: 800;
+}
+
+span{
+    color: #FFFFFF;
+    font-size: 3.6rem;
+    font-family: Inconsolata;
+    font-weight: 200;
+}
+
