@@ -46,8 +46,10 @@ html{
 }
 
 .titulo{
-    margin-top: 363px;
+    margin-top: 22vh;
     margin-left: 28px;
+    margin-right: auto;
+    margin-bottom: auto;
 }
 
 .h1_titulo{
@@ -55,13 +57,14 @@ html{
     font-family: 'Inconsolata';
     font-weight: 800;
     color: #FFFFFF;
+    
 }
 
 .span_sub_titulo{
     font-size: 36px;
     font-family: 'Inconsolata';
     font-weight: 800;
-    color: #FFFFFF;
+    color: #FFFFFF; 
 }
 
 .icone{
