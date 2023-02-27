@@ -63,7 +63,7 @@ html{
 .span_sub_titulo{
     font-size: 36px;
     font-family: 'Inconsolata';
-    font-weight: 800;
+    font-weight: 400;
     color: #FFFFFF; 
 }
 
@@ -88,4 +88,20 @@ html{
     margin-left: 22px;
     margin-bottom: 9px;
     margin-right: 9px;
+}
+
+.portifolio{
+    font-size: 2.6vh;
+    font-weight: 800;
+    color: #FFFFFF;
+    font-family: 'Inconsolata';
+    padding-left: 2px;
+    padding-top: 6px;
+}
+
+.portifolio_img {
+    width: 18px;
+    height: 60px;
+    margin-top: -11px;
+    margin-left: 8px;
 }
