@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Inconsolata:wght@400;800&display=swap');
 
 *{
     margin: 0;
@@ -34,6 +34,7 @@ html{
     background-color: #1D2026;
     width: 262px;
     height: calc(100vh - 28px);
+    padding-right: 150px;
 }
 
 .workspace{
@@ -119,21 +120,30 @@ html{
 }
 
 .botao{
-    position: absolute;
-    color: var(--text-primary);
-    font-size: 20px;
-    text-decoration: none;
-    width: 120px;
-    height: 22px;
-    left: 80px;
+    width: 32px;
+    height: 32px;
+    margin-left: -134px;
     margin-top: 45px;
-
+    text-decoration: none;
 }
 
 .icone_botao{
-    width: 20px;
-    height: 20px;
-    margin-right: 2px;
-    margin-top: center;
-    
+    position: relative;
+    width: 34px;
+    height: 24px;
+    color: #FFFFFF;
+    font-size: 24px;
+}
+
+.escrita_botao{
+    color: #FFFFFF;
+    font-size: 24px;
+    border-left: 5px;
+}
+
+.span_conteudo{
+    font-size: 25px;
+    font-family: 'IBM Plex Mono';
+    font-weight: 400;
+    color: #09B78D;
 }
