@@ -120,19 +120,28 @@ html{
 }
 
 .botao{
+    width: 26px;
+    height: 26px;
+    margin-left: -120px;
+    margin-top: 45px;
+    text-decoration: none;
+}
+
+.botao_baixo{
     width: 32px;
     height: 32px;
-    margin-left: -134px;
-    margin-top: 45px;
+    margin-left: -120px;
+    margin-top: 18px;
     text-decoration: none;
 }
 
 .icone_botao{
     position: relative;
-    width: 34px;
+    width: 26px;
     height: 24px;
     color: #FFFFFF;
     font-size: 24px;
+    margin-right: 6px;
 }
 
 .escrita_botao{
