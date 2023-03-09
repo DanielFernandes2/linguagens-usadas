@@ -20,49 +20,50 @@ html{
 
 .barra_superior{
     background-color: #1F2229;
-    width: 100%;
-    height: 28px;
+    width: auto;
+    height: 1.75rem;
     border-bottom: 1px solid #191C22 ;
 }
 
 .barra_icones{
-    position: relative;
     background-color: #24282E;
-    width: 52px;
-    height: calc(100vh - 28px); 
+    width: 3rem;
+    height:100% scalc(100vh - 1.75rem); 
 }
 
 .barra_portifolio{
     background-color: #1D2026;
-    width: 262px;
-    height: calc(100vh - 28px);
-    padding-right: 150px;
+    width: 15%;
+    height:auto calc(100vh - 1.75rem);
+    padding-right: 9.375rem;
 }
 
 .workspace{
     background-color: #20252B;
-    flex-grow: 1;
+    height:calc(100vh - 1.75rem);
+    width: 100%;
 }
 
 .workspace_header{
     background-color: #1F2229;
-    width: 100%;
-    height: 36px;
+    height: 2.25rem;
 }
 
 .workspace_content{
-    margin: 40px;
+    margin-right: 2.5rem;
+    margin-left: 2.5rem;
+    margin-bottom: 2.5rem;
+    margin-top: 1rem;
 }
 
 .titulo{
-    margin-top: 22vh;
-    margin-left: 20px;
-    margin-right: auto;
-    margin-bottom: auto;
+    margin-top: 35vh;
+    margin-left: 1.25rem;
+
 }
 
 .h1_titulo{
-    font-size: 64px;
+    font-size: 400%;
     font-family: 'Inconsolata';
     font-weight: 800;
     color: var(--text-primary);
@@ -70,112 +71,106 @@ html{
 }
 
 .span_sub_titulo{
-    font-size: 36px;
+    font-size: 200%;
     font-family: 'Inconsolata';
     font-weight: 400;
     color: var(--text-primary); 
 }
 
 .icone{
-    width: 32px;
-    height: 32px;
-    margin: 12px;
+    width: 1.5rem;
+    height: 1.5rem;
+    margin: 0.75rem;
 }
 
 .icone_logo{
-    width: 22px;
-    height: 22px;
-    margin-top: 4px;
-    margin-left: 16px;
+    width: 1.375rem;
+    height: 1.375rem;
+    margin-top: 0.25rem;
+    margin-left: 1rem;
 }
 
 .span_barra_sup{
-    font-size: 16px;
+    font-size: 1rem;
     font-family: 'Inconsolata';
     color: #FFFFFF;
-    margin-top: 4px;
-    margin-left: 22px;
-    margin-bottom: 9px;
-    margin-right: 9px;
+    margin-top: 0.25rem;
+    margin-left: 1.375rem;
+    margin-bottom: 0.563rem;
+    margin-right: 0.563rem;
 }
 
 .portifolio{
-    font-size: 2.6vh;
+    font-size: 135%;
     font-weight: 800;
     color: #FFFFFF;
     font-family: 'Inconsolata';
-    padding-left: 2px;
-    padding-top: 6px;
-    height: 20px;
+    padding-left: 0.125rem;
+    padding-top: 0.375rem;
+    height: 1.25rem;
 }
 
 .portifolio_img {
-    width: 18px;
-    height: 60px;
-    margin-top: -11px;
-    margin-left: 8px;
+    width: 1.125rem;
+    height: 3.75rem;
+    margin-top: -0.688rem;
+    margin-left: 0.5rem;
 }
 
-.conteudo {
-    font-size: 24px;
-    margin-left: 150px;
+
+.espaco_botao{
+    margin-left:-6.6rem;
+    margin-top: 2.8rem;
+    font-size: 1.22rem;
 }
 
-.botao{
-    width: 26px;
-    height: 26px;
-    margin-left: -120px;
-    margin-top: 45px;
-    text-decoration: none;
-}
 
-.botao_baixo{
-    width: 32px;
-    height: 32px;
-    margin-left: -120px;
-    margin-top: 18px;
+.style_botao{
+    margin-top: 0.5rem;
+    position: relative;
+    width: 2rem;
+    height: 2rem;
     text-decoration: none;
 }
 
 .icone_botao{
-    position: relative;
-    width: 26px;
-    height: 24px;
+    width: 1.625rem;
+    height: 1.5rem;
     color: #FFFFFF;
-    font-size: 24px;
-    margin-right: 6px;
+    margin-right: 5px;
 }
 
 .escrita_botao{
     color: #FFFFFF;
-    font-size: 24px;
-    border-left: 5px;
+    border-left: 0.313rem;
 }
 
 .span_conteudo{
-    font-size: 25px;
+    color: #09B78D;
+    font-size:120%;
     font-family: 'IBM Plex Mono';
     font-weight: 400;
-    color: #09B78D;
 }
 
 .conteudo_1 {
     color: var(--fonte-conteudo1);
-    font-size: 25px;
+    font-size: 120%;
     font-family: 'IBM Plex Mono';
     font-weight: 400;
 }
 
 .conteudo_2 {
     color: var(--fonte-conteudo2);
-    font-size: 25px;
+    font-size: 120%;
     font-family: 'IBM Plex Mono';
     font-weight: 400;
 }
 
 .imagens_conteudo{
-    height: 400px;
-    margin-left: 200px;
-    margin-right: 159px;
+    width: 40%;
+    max-width: 250px;
+    margin-left: 20vw;
+    margin-right: auto;
 }
+
 
