@@ -9,7 +9,9 @@
 :root{
     --text-primary: #FFFFFF;
     --font-heading: 'Inconsolata';
-    --font-default: 'Inconsolata'
+    --font-default: 'Inconsolata';
+    --fonte-conteudo1: #8572FF;
+    --fonte-conteudo2: #D20097;
 }
 
 html{
@@ -156,3 +158,24 @@ html{
     font-weight: 400;
     color: #09B78D;
 }
+
+.conteudo_1 {
+    color: var(--fonte-conteudo1);
+    font-size: 25px;
+    font-family: 'IBM Plex Mono';
+    font-weight: 400;
+}
+
+.conteudo_2 {
+    color: var(--fonte-conteudo2);
+    font-size: 25px;
+    font-family: 'IBM Plex Mono';
+    font-weight: 400;
+}
+
+.imagens_conteudo{
+    height: 400px;
+    margin-left: 200px;
+    margin-right: 159px;
+}
+

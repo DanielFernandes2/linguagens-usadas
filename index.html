@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="./assets/css/style.css"> <!--para lincar o CSS para html-->
 </head>
 <body> 
-    <div class="barra_superior" style="display: flex;">
+    <div class="barra_superior" style="display: flex;" id="home">
         <img src="./assets/images/Visual_Studio_Code_1.35_icon.svg" alt="Logo do Visual code" class="icone_logo">
         <span class="span_barra_sup">Arquivos</span>
         <span class="span_barra_sup">Editar</span>
@@ -31,7 +31,16 @@
         <nav class="barra_portifolio" style="display: flex;">
             <img src="./assets/images/chevron-down.svg" alt="Seta para baixo" class="portifolio_img">
             <p class="portifolio">Portifolio</p>
-            <a href="#">arduino</a>
+            <nav>
+                <a href="#home" class="botao" style="display: flex;"> <img src="./assets/images/txt2.svg" class="icone_botao"> <p class="escrita_botao"> home.txt</p></a>
+                <a href="#arduino" class="botao_baixo" style="display: flex;"> <img src="./assets/images/arduino-seeklogo.com.svg" class="icone_botao"> <p class="escrita_botao"> ardu.ino</p></a>
+                <a href="#python" class="botao_baixo" style="display: flex;"> <img src="./assets/images/python-seeklogo.com.svg" class="icone_botao"> <p class="escrita_botao"> python.py</p></a>
+                <a href="#" class="botao_baixo" style="display: flex;"> <img src="./assets/images/Rlogo.svg" class="icone_botao"> <p class="escrita_botao"> erre.R</p></a>
+                <a href="#" class="botao_baixo" style="display: flex;"> <img src="./assets/images/c.svg" class="icone_botao"> <p class="escrita_botao"> C++.cpp</p></a>
+                <a href="#" class="botao_baixo" style="display: flex;"> <img src="./assets/images/file-code-7-svgrepo-com.svg" class="icone_botao"> <p class="escrita_botao"> readme.txt</p></a>
+                
+            </nav>  
+            
             
         </nav>
 
@@ -53,7 +62,7 @@
     </div>
 
 
-    <div class="barra_superior" style="display: flex;">
+    <div class="barra_superior" style="display: flex;" id="arduino">
         <img src="./assets/images/Visual_Studio_Code_1.35_icon.svg" alt="Logo do Visual code" class="icone_logo">
         <span class="span_barra_sup">Arquivos</span>
         <span class="span_barra_sup">Editar</span>
@@ -78,8 +87,12 @@
 
             <nav style="display: flex;">
                 <nav>
-                    <a href="#" class="botao" style="display: flex;"> <img src="./assets/images/txt2.svg" class="icone_botao"> <p class="escrita_botao"> home.txt</p></a>
-                    <a href="#" class="botao_baixo" style="display: flex;"> <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Arduino_Logo.svg" class="icone_botao"> <p class="escrita_botao"> Ardu.ino</p></a>
+                    <a href="#home" class="botao" style="display: flex;"> <img src="./assets/images/txt2.svg" class="icone_botao"> <p class="escrita_botao"> home.txt</p></a>
+                    <a href="#arduino" class="botao_baixo" style="display: flex;"> <img src="./assets/images/arduino-seeklogo.com.svg" class="icone_botao"> <p class="escrita_botao"> ardu.ino</p></a>
+                    <a href="#python" class="botao_baixo" style="display: flex;"> <img src="./assets/images/python-seeklogo.com.svg" class="icone_botao"> <p class="escrita_botao"> python.py</p></a>
+                    <a href="#" class="botao_baixo" style="display: flex;"> <img src="./assets/images/Rlogo.svg" class="icone_botao"> <p class="escrita_botao"> erre.R</p></a>
+                    <a href="#" class="botao_baixo" style="display: flex;"> <img src="./assets/images/c.svg" class="icone_botao"> <p class="escrita_botao"> C++.cpp</p></a>
+                    <a href="#" class="botao_baixo" style="display: flex;"> <img src="./assets/images/file-code-7-svgrepo-com.svg" class="icone_botao"> <p class="escrita_botao"> readme.txt</p></a>
                 </nav>  
 
                 
@@ -96,16 +109,82 @@
 
             </div>
             <div class="workspace_content">
-                <span class="span_conteudo">O Arduino é baseado na linguagem C++. Para compilar um programa é necessário ter um ambiente de desenvolvimento, neste caso, o Arduino IDE que é um aplicativo de computador com compilador integrado.
+                <span class="span_conteudo">*/<br>O Arduino é baseado na linguagem C++. Para compilar um programa é necessário ter um ambiente de desenvolvimento, neste caso, o Arduino IDE que é um aplicativo de computador com compilador integrado.
                     Para testar o Arduino, a placa deve estar conectada via USB no computador onde a um terminal que o código está escrito e nele será compilado e gravado na placa. <br> <br>
                     O Arduino é uma placa que aceita códigos pequenos, como ligar um Led em um determinado tempo, ou ate mesmo usado em códigos mais complexos como por exemplo controlar sensores de diversos tipos. <br> <br>
-                    Durante o ano fizemos vários projetos com o Arduino, como um conjunto de sensores para ter manutenção preventiva de maquinas que estão tremendo muito, outro foi o projeto final do ano junto com a empresa DOW que fizemos uma tomada inteligente usando sensores.
+                    Durante o ano fizemos vários projetos com o Arduino, como um conjunto de sensores para ter manutenção preventiva de maquinas que estão tremendo muito, outro foi o projeto final do ano junto com a empresa DOW que fizemos uma tomada inteligente usando sensores. <br> */
                 </span>
             </div>
+            <img src="./assets/images/placa_arduino.svg" alt="" class="imagens_conteudo">
+            <img src="./assets/images/arduino_ide.svg" alt="" class="imagens_conteudo">
+
+
+        </div>
+    </div>    
+
+    <div class="barra_superior" style="display: flex;" id="python">
+        <img src="./assets/images/Visual_Studio_Code_1.35_icon.svg" alt="Logo do Visual code" class="icone_logo">
+        <span class="span_barra_sup">Arquivos</span>
+        <span class="span_barra_sup">Editar</span>
+        <span class="span_barra_sup">Seleção</span>
+        <span class="span_barra_sup">Ver</span>
+        <span class="span_barra_sup">Acessar</span>
+        <span class="span_barra_sup">...</span>
+    </div>
+
+    <div style="display: flex;">
+        <div class="barra_icones">
+            <img src="./assets/images/files.svg" alt="Logo de arquivos" class="icone">
+            <img src="./assets/images/search.svg" alt="Logo de arquivos" class="icone">
+            <img src="./assets/images/code.svg" alt="Logo de arquivos" class="icone">
+            <img src="./assets/images/mail.svg" alt="Logo de arquivos" class="icone">
+
+        </div>
+
+        <div class="barra_portifolio" style="display: flex;">
+            <img src="./assets/images/chevron-down.svg" alt="Seta para baixo" class="portifolio_img">
+            <p class="portifolio">Portifolio</p>
+
+            <nav style="display: flex;">
+                <nav>
+                    <a href="#home" class="botao" style="display: flex;"> <img src="./assets/images/txt2.svg" class="icone_botao"> <p class="escrita_botao"> home.txt</p></a>
+                    <a href="#arduino" class="botao_baixo" style="display: flex;"> <img src="./assets/images/arduino-seeklogo.com.svg" class="icone_botao"> <p class="escrita_botao"> ardu.ino</p></a>
+                    <a href="#python" class="botao_baixo" style="display: flex;"> <img src="./assets/images/python-seeklogo.com.svg" class="icone_botao"> <p class="escrita_botao"> python.py</p></a>
+                    <a href="#" class="botao_baixo" style="display: flex;"> <img src="./assets/images/Rlogo.svg" class="icone_botao"> <p class="escrita_botao"> erre.R</p></a>
+                    <a href="#" class="botao_baixo" style="display: flex;"> <img src="./assets/images/c.svg" class="icone_botao"> <p class="escrita_botao"> C++.cpp</p></a>
+                    <a href="#" class="botao_baixo" style="display: flex;"> <img src="./assets/images/file-code-7-svgrepo-com.svg" class="icone_botao"> <p class="escrita_botao"> readme.txt</p></a>
+                </nav>  
+
+                
+            </nav>
+
+            
+            
+            
+        </div>
+
+        <div class="workspace">
+            <div class="workspace_header">
+                
+
+            </div>
+            <div class="workspace_content">
+                <span class="conteudo_1">1 # O Python é uma linguagem de programação amplamente usada em aplicações da Web, desenvolvimento de software, ciência de dados e machine <br>2 # learning(ML). <br>
+                    3 # Os desenvolvedores usam o Python porque é eficiente e fácil de aprender e pode ser executada em muitas plataformas diferentes. <br> <br>
+                    4 # A linguagem oferece recursos como tipagem dinâmica e forte (tipo de dado do valor deve ser do mesmo tipo da variável), orientação a <br>5 # objetos, multi-paradigmas (programação funcional e imperativa), além de recursos
+                    poderosos em biblioteca padrão e via módulos e <br>5 # frameworks desenvolvidos pela comunidade. Seu código é aberto e a utilização é gratuita, rodando em praticamente qualquer sistema <br>6 # operacional. <br> <br>
+                    7 # Durante o ano utilizamos o Python para fazer alguns códigos com temas específicos por exemplo notas de uma escola, para ver se o aluno <br>8 #  bateu a media escolar.
+                </span>
+            </div>
+            <img src="./assets/images/pycharm_ide.svg" alt="foto do aplicatico de programação do python" class="imagens_conteudo">
+            <img src="./assets/images/python_ide.svg" alt="foto do aplicatico de programação do python" class="imagens_conteudo">
 
 
         </div>
     </div>
+    
+
+
 
 
 
