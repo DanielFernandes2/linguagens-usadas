@@ -67,7 +67,25 @@ html{
     font-family: 'Inconsolata';
     font-weight: 800;
     color: var(--text-primary);
-    
+    max-width: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid #000;
+    padding-right: 3px;
+    animation: pisca normal infinite .8s, escrever normal infinite 5s steps(55) both;
+    display: inline-block;
+}
+
+@keyframes pisca {
+    100%{
+        border-right-color: transparent;
+    }
+}
+
+@keyframes escrever{
+    100%{
+        max-width: 100%;
+    }
 }
 
 .span_sub_titulo{
@@ -126,7 +144,7 @@ html{
 
 
 .style_botao{
-    margin-top: 0.5rem;
+    margin-top: 0.5px;
     position: relative;
     width: 2rem;
     height: 2rem;
@@ -143,6 +161,13 @@ html{
 .escrita_botao{
     color: #FFFFFF;
     border-left: 0.313rem;
+}
+
+.escrita_botao:hover{
+    color: #FFFFFF;
+    background-color: violet;
+    opacity: 90%;
+    border-radius: 5px;
 }
 
 .span_conteudo{
@@ -169,8 +194,7 @@ html{
 .imagens_conteudo{
     width: 40%;
     max-width: 250px;
-    margin-left: 20vw;
-    margin-right: auto;
+    margin-left: 14vw;
 }
 
 
